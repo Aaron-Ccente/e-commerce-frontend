@@ -6,7 +6,11 @@
   "author": "Aaron Ccente Rojas",
   "license": "MIT",
   "description": "E-commerce platform that sells furniture",
-  "keywords": ["Ecommerce", "Practice react with typescript", "muebles"],
+  "keywords": [
+    "Ecommerce",
+    "Practice react with typescript",
+    "muebles"
+  ],
   "scripts": {
     "dev": "vite",
     "build": "tsc -b && vite build",
@@ -14,8 +18,10 @@
     "preview": "vite preview"
   },
   "dependencies": {
+    "@tailwindcss/vite": "^4.1.11",
     "react": "^19.1.0",
-    "react-dom": "^19.1.0"
+    "react-dom": "^19.1.0",
+    "tailwindcss": "^4.1.11"
   },
   "devDependencies": {
     "@eslint/js": "^9.30.1",
