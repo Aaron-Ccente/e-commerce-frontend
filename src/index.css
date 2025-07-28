@@ -1,1 +1,15 @@
 @import "tailwindcss";
+@custom-variant dark (&:where(.dark, .dark *));
+/* Variables para light y dark mode */
+@theme {
+  --color-fondoPrincipal: #f2e2cc;
+  --color-fondoSecundario: #fef2e3;
+  --color-titulo: #d96d2f;
+  --color-titulo-dark: white;
+  --color-boton: #d96d2f;
+  --font-titulo: monospace;
+}
+
+sadasd{
+    font-family: 'Courier New', Courier, monospace;
+}
