@@ -1,14 +1,9 @@
-import { useNavigate } from "react-router-dom";
 import Nav from "../Nav";
 
 function Inicio() {
-  const navigate = useNavigate();
-  const handleViewProducts = () => {
-    navigate("/productos");
-  };
 
   return (
-    <section id="inicio" className="relative h-auto max-md:py-6 w-full ">
+    <section id="inicio" className="relative h-auto min-h-screen max-md:py-6 w-full ">
       <div className="px-4 sm:px-10 md:px-20  relative">
         <div className="bg-fondoSecundario dark:bg-gradient-to-t dark:from-borde-dark dark:via-fondoPrincipal-dark dark:to-fondoPrincipal-dark rounded-4xl dark:border-2 border-borde-dark  md:h-[calc(100vh-80px)] md:py-0">
           <Nav />
@@ -24,9 +19,13 @@ function Inicio() {
             <div className="flex flex-col items-center lg:w-4/5 gap-6">
               <button
                 className="px-8 py-4 text-xl md:text-2xl rounded-3xl bg-boton text-white font-titulo cursor-pointer hover:scale-105 transition-transform"
-                onClick={handleViewProducts}
               >
-                Ver productos
+                <a 
+                href="/productos"
+                target="_blank"
+                rel="noopener noreferrer">
+                  Ver productos
+                </a>
               </button>
               <div className="flex justify-end items-end w-full">
                 <img
