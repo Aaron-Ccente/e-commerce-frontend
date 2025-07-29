@@ -15,10 +15,10 @@ function Nav() {
   return (
     <header className='relative w-full z-50 lg:py-6'>
         <nav className="flex justify-between max-[1400px]:hidden">
-            <h2 className="text-4xl w-1/3 font-bold font-titulo overflow-hidden px-2 py-2 text-center">FORNITURE</h2>
-            <ul className="flex w-1/3 text-3xl gap-2 justify-between items-center">
-                <li className={estiloParaBordes}>Inicio</li>
-                <li className={estiloParaBordes}>Categorias</li>
+            <h2 className="text-3xl w-1/3 font-bold font-titulo overflow-hidden px-2 py-2 text-center">FORNITURE</h2>
+            <ul className="flex w-1/3 text-xl gap-2 justify-between items-center">
+                <li className={estiloParaBordes}><a href="#inicio">Inicio</a></li>
+                <li className={estiloParaBordes}><a href="#categorias">Categorias</a></li>
                 <li className={estiloParaBordes}>Contáctanos</li>
             </ul>
             <div className="w-1/3 flex justify-evenly items-center">
