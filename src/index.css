@@ -2,14 +2,30 @@
 @custom-variant dark (&:where(.dark, .dark *));
 /* Variables para light y dark mode */
 @theme {
+  /* colores para fondos */
   --color-fondoPrincipal: #f2e2cc;
+  --color-fondoPrincipal-dark: #0c1213;
   --color-fondoSecundario: #fef2e3;
-  --color-titulo: #d96d2f;
-  --color-titulo-dark: white;
-  --color-boton: #d96d2f;
-  --font-titulo: monospace;
-}
+  --color-hamburguesa: #f2e2cc;
+  --color-hamburguesa-dark: #0c1213;
 
-sadasd{
-    font-family: 'Courier New', Courier, monospace;
+  /* Bordes  */
+  --color-borde-dark: #1c1d1d;
+
+  /* Hover */
+  --color-hoverBoton-dark: #d96d2f;
+
+  /* color para textos */
+  --color-titulo: #d96d2f;
+  --color-texto-dark: #dec6a6;
+  --color-hamburguesa: #d96d2f;
+
+  /* color para botones */
+  --color-boton: #d96d2f;
+
+  /* tipografia */
+  --font-titulo: monospace;
+
+  /* Animaciones */
+  
 }
