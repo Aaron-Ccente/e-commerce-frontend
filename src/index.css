@@ -6,11 +6,15 @@
   --color-fondoPrincipal: #f2e2cc;
   --color-fondoPrincipal-dark: #0c1213;
   --color-fondoSecundario: #fef2e3;
+  --color-fondoSecundario-dark: #1c1d1d;
   --color-hamburguesa: #f2e2cc;
   --color-hamburguesa-dark: #0c1213;
 
   /* Bordes  */
   --color-borde-dark: #1c1d1d;
+
+  /* Redondeo para los bordes */
+  --rounded-redondeoFondo: 3xl;
 
   /* Hover */
   --color-hoverBoton-dark: #d96d2f;
@@ -28,6 +32,7 @@
 
   /* Animaciones */
   
+
 }
 
   html {
