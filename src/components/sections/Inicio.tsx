@@ -5,7 +5,7 @@ function Inicio() {
   return (
     <section id="inicio" className="relative h-auto min-h-screen max-md:py-6 w-full ">
       <div className="px-4 sm:px-10 md:px-20  relative">
-        <div className="bg-fondoSecundario dark:bg-gradient-to-t dark:from-borde-dark dark:via-fondoPrincipal-dark dark:to-fondoPrincipal-dark rounded-4xl dark:border-2 border-borde-dark  md:h-[calc(100vh-80px)] md:py-0">
+        <div className="bg-fondoSecundario dark:bg-gradient-to-t dark:from-fondoSecundario-dark dark:via-fondoPrincipal-dark dark:to-fondoPrincipal-dark rounded-4xl dark:border-2 border-borde-dark  md:h-[calc(100vh-80px)] md:py-0">
           <Nav />
 
           <div className="grid grid-rows-[auto_auto_auto] gap-6 md:gap-0 md:grid-rows-3 max-h-[calc(100vh-80px)] max-sm:py-6">
